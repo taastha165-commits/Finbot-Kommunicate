@@ -1,95 +1,104 @@
-# 💰 FinBot – AI-Powered Finance Chatbot
+FinBot – AI-Powered Finance Chatbot
 
-FinBot is a finance-focused conversational chatbot built using **Google Dialogflow Essentials** and integrated with **Kommunicate**. The chatbot helps users understand financial concepts, investment decisions, loans, insurance, budgeting, and other personal finance topics through natural language conversations.
+FinBot is an intelligent finance chatbot developed using **Google Dialogflow Essentials** and integrated with **Kommunicate**. The chatbot provides instant responses to finance-related queries, helping users understand financial concepts such as investments, loans, insurance, budgeting, financial ratios, and valuation techniques through a conversational interface.
 
----
+## 🚀 Project Highlights
 
-## 🚀 Features
+- Built using Google Dialogflow Essentials
+- Integrated with Kommunicate for web-based chat support
+- Uses Natural Language Processing (NLP) to understand user queries
+- Provides financial guidance and educational support
+- User-friendly conversational interface
 
-✅ Net Present Value (NPV) Guidance  
-✅ Internal Rate of Return (IRR) Information  
-✅ Loan & EMI Assistance  
-✅ Insurance Recommendations  
-✅ Investment Suggestions  
-✅ Credit Score Information  
-✅ Budget Planning Tips  
-✅ Financial Ratio Explanations  
-✅ Natural Language Understanding (NLU)  
-✅ Real-Time Chat Interface using Kommunicate
+## 📋 Features
 
----
+### 📈 Investment & Finance
+- Net Present Value (NPV)
+- Internal Rate of Return (IRR)
+- Investment Guidance
+- Financial Planning
+
+### 💳 Loan Assistance
+- Loan Information
+- EMI Guidance
+- Credit Score Awareness
+
+### 🛡️ Insurance Support
+- Insurance Recommendations
+- Risk Protection Guidance
+- Insurance Awareness
+
+### 📊 Financial Education
+- Financial Ratios
+- Budgeting Tips
+- Personal Finance Concepts
+- Financial Literacy Support
 
 ## 🛠️ Technologies Used
 
-- Google Dialogflow Essentials
-- Kommunicate
-- Natural Language Processing (NLP)
-- Conversational AI
-- Cloud-Based Chatbot Integration
-
----
-
-## 📌 Project Objective
-
-The objective of FinBot is to provide users with instant and accurate financial guidance through an AI-powered chatbot. It simplifies financial learning and improves accessibility to basic finance knowledge by offering automated responses to common financial queries.
-
----
+| Technology | Purpose |
+|------------|---------|
+| Google Dialogflow Essentials | Intent Creation & NLP |
+| Kommunicate | Chatbot Integration |
+| NLP | Query Understanding |
+| Conversational AI | Automated Responses |
 
 ## 🔄 Workflow
 
 1. User enters a financial query.
 2. Kommunicate receives the message.
-3. Dialogflow processes the query and identifies the intent.
-4. The appropriate response is generated.
-5. The user receives an instant answer.
-
----
+3. Dialogflow identifies the user's intent.
+4. The chatbot processes the request.
+5. An appropriate financial response is returned.
 
 ## 📷 Project Screenshots
 
 ### Welcome Finance Agent
+
 ![Welcome Finance](images/welcome-finance.png)
 
 ### NPV Intent
-![NPV Intent](images/npv-intent.png)
+
+![NPV Intent](images/npv.png)
 
 ### Insurance Advisor Intent
+
 ![Insurance Advisor](images/insurance-advisor.png)
 
 ### Kommunicate Integration
-![Kommunicate Integration](images/kommunicate-integration.png)
 
----
+![Kommunicate Integration](images/integration.png)
 
-## 💬 Sample Queries
+## 💬 Sample User Queries
 
 - What is NPV?
-- Explain IRR
+- Explain IRR.
 - What is EMI?
-- I need a loan
-- Insurance advice
-- Suggest investment options
+- Suggest investment options.
+- Insurance advice.
 - What is a credit score?
-- How to make a budget?
-- Explain current ratio
-- Explain financial leverage
+- How can I create a budget?
+- Explain current ratio.
 
----
+## 🎯 Objectives
 
-## 🎯 Learning Outcomes
+- Provide instant financial assistance through AI.
+- Improve financial awareness and literacy.
+- Automate responses to common finance-related questions.
+- Demonstrate the application of Conversational AI in finance.
 
-- Understanding Dialogflow Intent Creation
-- Implementing NLP-based Chatbots
-- Integrating Dialogflow with Kommunicate
-- Designing Finance-Specific Conversational Flows
-- Building AI-Powered Customer Support Systems
+## 📚 Learning Outcomes
 
----
+- Dialogflow Intent Design
+- NLP-Based Chatbot Development
+- Kommunicate Integration
+- Conversational Flow Design
+- Finance Domain Chatbot Development
 
 ## 🔮 Future Enhancements
 
 - EMI Calculator Integration
+- Real-Time Financial APIs
 - Mutual Fund Recommendations
-- Real-Time Financial Data APIs
-- Personalized Financial Planning
 - Multi-Language Support
+- Personalized Financial Planning
