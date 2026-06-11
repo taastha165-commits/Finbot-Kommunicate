@@ -1,185 +1,95 @@
 # 💰 FinBot – AI-Powered Finance Chatbot
 
-## 📖 Overview
-
-FinBot is an intelligent finance chatbot built using **Google Dialogflow Essentials** and integrated with **Kommunicate**. The chatbot provides instant responses to finance-related queries and helps users understand financial concepts such as investments, loans, insurance, budgeting, credit scores, NPV, IRR, and financial ratios.
-
-The project demonstrates the application of **Conversational AI** and **Natural Language Processing (NLP)** in the finance domain to deliver quick, interactive, and user-friendly financial assistance.
+FinBot is a finance-focused conversational chatbot built using **Google Dialogflow Essentials** and integrated with **Kommunicate**. The chatbot helps users understand financial concepts, investment decisions, loans, insurance, budgeting, and other personal finance topics through natural language conversations.
 
 ---
 
 ## 🚀 Features
 
-✅ Investment Guidance
-
-✅ Loan & EMI Assistance
-
-✅ Insurance Advisory
-
-✅ Credit Score Information
-
-✅ Budget Planning Support
-
-✅ Financial Ratio Explanations
-
-✅ NPV & IRR Information
-
-✅ Real-Time Conversational Interface
+✅ Net Present Value (NPV) Guidance  
+✅ Internal Rate of Return (IRR) Information  
+✅ Loan & EMI Assistance  
+✅ Insurance Recommendations  
+✅ Investment Suggestions  
+✅ Credit Score Information  
+✅ Budget Planning Tips  
+✅ Financial Ratio Explanations  
+✅ Natural Language Understanding (NLU)  
+✅ Real-Time Chat Interface using Kommunicate
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|----------|
-| Dialogflow Essentials | Intent Recognition & NLP |
-| Kommunicate | Chatbot Deployment |
-| NLP | Query Processing |
-| Conversational AI | User Interaction |
-
----
-
-## 📂 Project Architecture
-
-```text
-User
-  ↓
-Kommunicate Chat Widget
-  ↓
-Dialogflow Agent
-  ↓
-Intent Detection
-  ↓
-Response Generation
-  ↓
-User Receives Financial Guidance
-```
+- Google Dialogflow Essentials
+- Kommunicate
+- Natural Language Processing (NLP)
+- Conversational AI
+- Cloud-Based Chatbot Integration
 
 ---
 
-## 💬 Supported Queries
+## 📌 Project Objective
 
-```text
-What is NPV?
-Explain IRR
-What is EMI?
-Suggest investment options
-Insurance advice
-What is a credit score?
-How do I create a budget?
-Explain current ratio
-What is financial leverage?
-```
+The objective of FinBot is to provide users with instant and accurate financial guidance through an AI-powered chatbot. It simplifies financial learning and improves accessibility to basic finance knowledge by offering automated responses to common financial queries.
 
 ---
 
-## 🔗 Kommunicate Integration Code
+## 🔄 Workflow
 
-Add the following code to your website to integrate the chatbot:
-
-```html
-<script type="text/javascript">
-(function(d, m){
-    var kommunicateSettings =
-    {
-        "appId":"YOUR_APP_ID",
-        "popupWidget":true,
-        "automaticChatOpenOnNavigation":true
-    };
-
-    var s = document.createElement("script");
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-
-    var h = document.getElementsByTagName("head")[0];
-    h.appendChild(s);
-
-    window.kommunicate = m;
-    m._globals = kommunicateSettings;
-
-})(document, window.kommunicate || {});
-</script>
-```
+1. User enters a financial query.
+2. Kommunicate receives the message.
+3. Dialogflow processes the query and identifies the intent.
+4. The appropriate response is generated.
+5. The user receives an instant answer.
 
 ---
 
-## 🤖 Example Dialogflow Intent
+## 📷 Project Screenshots
 
-### Intent Name: NPV
-
-**Training Phrases**
-
-```text
-What is NPV?
-Explain NPV
-Define Net Present Value
-Tell me about NPV
-```
-
-**Response**
-
-```text
-Net Present Value (NPV) is a capital budgeting technique used to determine the profitability of an investment by calculating the difference between the present value of cash inflows and cash outflows.
-```
-
----
-
-## 🎯 Objectives
-
-- Automate responses to common financial queries.
-- Improve financial literacy and awareness.
-- Demonstrate the use of Conversational AI in Finance.
-- Provide an interactive user experience.
-- Enable quick access to financial knowledge.
-
----
-
-## 📸 Screenshots
-
-### Welcome Screen
-![Welcome Screen](screenshots/welcome.png)
+### Welcome Finance Agent
+![Welcome Finance](images/welcome-finance.png)
 
 ### NPV Intent
-![NPV Intent](screenshots/npv.png)
+![NPV Intent](images/npv-intent.png)
 
-### Insurance Advisor
-![Insurance Advisor](screenshots/insurance.png)
+### Insurance Advisor Intent
+![Insurance Advisor](images/insurance-advisor.png)
 
 ### Kommunicate Integration
-![Kommunicate Integration](screenshots/integration.png)
+![Kommunicate Integration](images/kommunicate-integration.png)
 
 ---
 
-## 📚 Learning Outcomes
+## 💬 Sample Queries
 
-- Dialogflow Agent Creation
-- Intent Training & Management
-- NLP-Based Chatbot Development
-- Kommunicate Integration
-- Finance Domain Knowledge Implementation
-- Conversational AI Deployment
+- What is NPV?
+- Explain IRR
+- What is EMI?
+- I need a loan
+- Insurance advice
+- Suggest investment options
+- What is a credit score?
+- How to make a budget?
+- Explain current ratio
+- Explain financial leverage
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understanding Dialogflow Intent Creation
+- Implementing NLP-based Chatbots
+- Integrating Dialogflow with Kommunicate
+- Designing Finance-Specific Conversational Flows
+- Building AI-Powered Customer Support Systems
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Real-Time EMI Calculator
-- Mutual Fund Recommendation System
-- Stock Market Integration
-- Voice-Based Chatbot
-- Multi-Language Support
+- EMI Calculator Integration
+- Mutual Fund Recommendations
+- Real-Time Financial Data APIs
 - Personalized Financial Planning
-
----
-
-## 👩‍💻 Author
-
-**Aastha Thakur**  
-MBA (Applied Finance)
-
----
-
-## ⭐ Project Summary
-
-FinBot is an AI-powered finance chatbot that helps users understand financial concepts and make informed decisions through natural conversations using Dialogflow and Kommunicate.
+- Multi-Language Support
