@@ -261,7 +261,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-*Aditya Sharma*
+*Aastha Thakur*
 
 AI & Finance Enthusiast | Financial Analytics | Conversational AI | Investment Research
 
